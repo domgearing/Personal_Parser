@@ -1,0 +1,34 @@
+
+=== Structural rules that are MOST 'you-ish' (you >> GPT) ===
+CONJP -> CONJP IN                    Δ(you-GPT)= 18.80
+QP    -> QP CD                       Δ(you-GPT)= 18.46
+SINV  -> SINV S+VP                   Δ(you-GPT)= 18.21
+SINV  -> VBZ NP+NP                   Δ(you-GPT)= 18.21
+SINV  -> SINV PP                     Δ(you-GPT)= 18.21
+QP    -> JJR IN                      Δ(you-GPT)= 18.05
+PRP   -> I                           Δ(you-GPT)= 17.89
+CONJP -> CC RB                       Δ(you-GPT)= 17.70
+SQ    -> SINV .                      Δ(you-GPT)= 17.44
+SQ    -> SQ ,                        Δ(you-GPT)= 17.44
+SQ    -> SQ VBZ                      Δ(you-GPT)= 17.44
+SQ    -> CC ,                        Δ(you-GPT)= 17.44
+QP    -> RB DT                       Δ(you-GPT)= 17.36
+QP    -> IN IN                       Δ(you-GPT)= 17.36
+QP    -> QP IN                       Δ(you-GPT)= 17.36
+
+=== Structural rules that are MOST 'GPT-ish' (GPT >> you) ===
+WHADJP -> RB WRB                      Δ(you-GPT)=-18.90
+WHADJP -> WHADJP JJ                   Δ(you-GPT)=-18.90
+WHADJP -> WRB JJ                      Δ(you-GPT)=-18.90
+SBARQ -> SBARQ SBAR                  Δ(you-GPT)=-17.92
+SBARQ -> PP ,                        Δ(you-GPT)=-17.92
+SBARQ -> WHNP SQ                     Δ(you-GPT)=-17.92
+SBARQ -> WHADVP S+VP                 Δ(you-GPT)=-17.92
+CONJP -> RB ADVP                     Δ(you-GPT)=-17.60
+SQ    -> VBP VP                      Δ(you-GPT)=-17.36
+SQ    -> VBZ NP+NP                   Δ(you-GPT)=-17.36
+SQ    -> VBZ NP                      Δ(you-GPT)=-17.36
+SQ    -> SQ ADJP                     Δ(you-GPT)=-17.36
+SQ    -> VBD NP                      Δ(you-GPT)=-17.36
+PRT   -> RB                          Δ(you-GPT)=-17.36
+WHNP  -> WP$ NN                      Δ(you-GPT)=-16.59

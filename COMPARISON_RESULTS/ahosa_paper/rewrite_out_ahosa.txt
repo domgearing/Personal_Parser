@@ -1,0 +1,29 @@
+python rewrite.py --mine personal_ahosa.txt --gpt gpt_ahosa.txt
+
+=== YOUR ESSAY ===
+Length (chars): 15785
+Average normalized relative style (you - GPT): -0.35965753176144183
+Average normalized logP_you per rule        : 0.001972032162668161
+Average normalized logP_gpt per rule        : 0.36162956392411
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 23424
+Average normalized relative style (you - GPT): 0.16712094889213397
+Average normalized logP_you per rule        : 0.16888413825852858
+Average normalized logP_gpt per rule        : 0.0017631893663945654
+
+[INFO] Rewrote 1 out of 172 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 23366
+Average normalized relative style (you - GPT): 0.1688867320589248
+Average normalized logP_you per rule        : 0.16992677870893147
+Average normalized logP_gpt per rule        : 0.001040046650006626
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.16712094889213397
+After  (you - GPT): 0.1688867320589248
+Δ (after - before): 0.0018
+→ Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: rewritten_gpt_essay_relative.txt
+

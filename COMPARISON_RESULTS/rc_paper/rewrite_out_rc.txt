@@ -1,0 +1,27 @@
+(lcproj) Dominics-MacBook-Pro-2:final_project_code_02 domgearing$ python rewrite.py --mine personal_racial_capitalism.txt --gpt gpt_racial_capitalism.txt 
+=== YOUR ESSAY ===
+Length (chars): 9878
+Average normalized relative style (you - GPT): -0.284119210222381
+Average normalized logP_you per rule        : 0.042702280172948234
+Average normalized logP_gpt per rule        : 0.32682149039532926
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 11240
+Average normalized relative style (you - GPT): 0.4043330168818462
+Average normalized logP_you per rule        : 0.40726374432609724
+Average normalized logP_gpt per rule        : 0.002930727444250901
+
+[INFO] Rewrote 0 out of 100 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 11221
+Average normalized relative style (you - GPT): 0.4043330168818462
+Average normalized logP_you per rule        : 0.40726374432609724
+Average normalized logP_gpt per rule        : 0.002930727444250901
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.4043330168818462
+After  (you - GPT): 0.4043330168818462
+Δ (after - before): 0.0000
+→ No net change in relative style score.
+
+Rewritten essay saved to: rewritten_gpt_essay_relative.txt

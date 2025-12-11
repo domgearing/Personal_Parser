@@ -1,0 +1,27 @@
+(lcproj) Dominics-MacBook-Pro-2:final_project_code_02 domgearing$ python rewrite.py --mine personal_dbb.txt --gpt gpt_dbb.txt
+=== YOUR ESSAY ===
+Length (chars): 8352
+Average normalized relative style (you - GPT): -0.5396787408809419
+Average normalized logP_you per rule        : 0.027678364333822092
+Average normalized logP_gpt per rule        : 0.5673571052147641
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 9757
+Average normalized relative style (you - GPT): 0.09399378938624159
+Average normalized logP_you per rule        : 0.08729259943490895
+Average normalized logP_gpt per rule        : -0.006701189951332623
+
+[INFO] Rewrote 3 out of 108 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 9807
+Average normalized relative style (you - GPT): 0.06854729141693791
+Average normalized logP_you per rule        : 0.09172041918697538
+Average normalized logP_gpt per rule        : 0.023173127770037473
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.09399378938624159
+After  (you - GPT): 0.06854729141693791
+Δ (after - before): -0.0254
+→ Rewriting accidentally moved it toward GPT's style.
+
+Rewritten essay saved to: rewritten_gpt_essay_relative.txt

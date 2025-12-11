@@ -1,0 +1,7 @@
+Computing baseline for YOUR grammar on YOUR corpus...
+  mu_you_on_you: -2.8518739334427474
+
+Computing baseline for GPT grammar on GPT corpus...
+  mu_gpt_on_gpt: -2.881162440577953
+
+Saved baselines to models/style_baselines.json

@@ -1,0 +1,81 @@
+Loaded 481 tree records from gpt_data/gpt_trees.jsonl
+================================================================================
+Sentence:
+Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.
+
+Tree (pretty_print):
+                                                                           TOP                                                                                  
+                                                                            |                                                                                    
+                                                                            S                                                                                   
+                            ________________________________________________|_________________________________________________________________________________   
+                          SBAR                                |                      |                                                   |                    | 
+  _________________________|______                            |                      |                                                   |                    |  
+ |     |                          S                           |                      |                                                   |                    | 
+ |     |               ___________|__________                 |                      |                                                   |                    |  
+ |     |              |                      VP               |                      NP                                                  VP                   | 
+ |     |              |            __________|___             |              ________|__________________                   ______________|______              |  
+ |     |              |           |              PP           |             |                           PP                |      |             ADJP           | 
+ |     |              |           |       _______|___         |             |                      _____|______           |      |        ______|______       |  
+ADVP   |              NP          |      |           NP       |             NP                    |            NP         |     ADVP    ADVP    |     ADVP    | 
+ |     |        ______|____       |      |        ___|___     |    _________|______________       |      ______|____      |      |       |      |      |      |  
+ RB    IN      JJ         NNS    VBD     IN      DT     NNP   ,   NN   ,    NN   ,   CC    NN     IN    JJ         NNP   VBD     RB      RB    VBN     RB     . 
+ |     |       |           |      |      |       |       |    |   |    |    |    |   |     |      |     |           |     |      |       |      |      |      |  
+Long before European     ships appeared off     the     Cape  ,  work  ,  power  ,  and survival  in southern     Africa were already tightly bound together  . 
+
+================================================================================
+Saved tree visualization to outputs/trees/tree_0.pdf
+================================================================================
+Sentence:
+Communities organized themselves around scarce water, pasture, and grazing routes.
+
+Tree (pretty_print):
+                                                         TOP                                       
+                                                          |                                         
+                                                          S                                        
+      ____________________________________________________|______________________________________   
+     |                    VP                                                                     | 
+     |           _________|__________________________                                            |  
+     |          |         |                          PP                                          | 
+     |          |         |         _________________|__________                                 |  
+     |          |         |        |                            NP                               | 
+     |          |         |        |             _______________|_____________________           |  
+     NP         |         NP       |            NP        |     NP    |   |           NP         | 
+     |          |         |        |       _____|____     |     |     |   |      _____|____      |  
+    NNS        VBD       PRP       IN     JJ         NN   ,     NN    ,   CC    NN        NNS    . 
+     |          |         |        |      |          |    |     |     |   |     |          |     |  
+Communities organized themselves around scarce     water  ,  pasture  ,  and grazing     routes  . 
+
+================================================================================
+Saved tree visualization to outputs/trees/tree_1.pdf
+================================================================================
+Sentence:
+A Kgosi’s authority rested not only on lineage or charisma, but on the ability to call on the ancestors and bring rain, pula.
+
+Tree (pretty_print):
+                                                                                    TOP                                                                               
+                                                                                     |                                                                                 
+                                                                                     S                                                                                
+            _________________________________________________________________________|______________________________________________________________________________   
+           |                                                                                 VP                                                                     | 
+           |                    _____________________________________________________________|_____                                                                 |  
+           |                   |                                                                   PP                                                               | 
+           |                   |           ________________________________________________________|_____                                                           |  
+           |                   |          |                     |                |   |                   PP                                                         | 
+           |                   |          |                     |                |   |    _______________|____________                                              |  
+           |                   |          |                     |                |   |   |                            NP                                            | 
+           |                   |          |                     |                |   |   |    ________________________|__________                                   |  
+           |                   |          |                     |                |   |   |   |     |                             S                                  | 
+           |                   |          |                     |                |   |   |   |     |                             |                                  |  
+           |                   |          |                     |                |   |   |   |     |                             VP                                 | 
+           |                   |          |                     |                |   |   |   |     |      _______________________|______                            |  
+           |                   |          |                     |                |   |   |   |     |     |                              VP                          | 
+           |                   |          |                     |                |   |   |   |     |     |         _____________________|______________             |  
+           NP                  |          |                     PP               |   |   |   |     |     |        VP                    |              VP           | 
+       ____|___________        |          |          ___________|___             |   |   |   |     |     |    ____|_______              |     _________|___         |  
+      NP               |       |        CONJP       |               NP           |   |   |   |     |     |   |    |       NP            |    |             NP       | 
+  ____|_________       |       |      ____|____     |      _________|_____       |   |   |   |     |     |   |    |    ___|______       |    |     ________|___     |  
+ DT  NNP  PRP$ POS     NN     VBD    RB        RB   IN    NN        CC    NN     ,   CC  IN  DT    NN    TO  VB   IN  DT        NNS     CC   VB   NN       ,   NN   . 
+ |    |    |    |      |       |     |         |    |     |         |     |      |   |   |   |     |     |   |    |   |          |      |    |    |        |   |    |  
+ A  Kgosi  ’    s  authority rested not       only  on lineage      or charisma  ,  but  on the ability  to call  on the     ancestors and bring rain      ,  pula  . 
+
+================================================================================

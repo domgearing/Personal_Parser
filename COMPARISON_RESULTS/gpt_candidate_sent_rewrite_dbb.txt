@@ -1,0 +1,67 @@
+(lcproj) Dominics-MacBook-Pro-2:final_project_code_02 domgearing$ python rewrite_gpt_cand.py --mine personal_dbb.txt --gpt gpt_dbb.txt --cands data/gpt_candidates.jsonl
+[INFO] Loaded paraphrases for 72 sentences from data/gpt_candidates.jsonl
+=== YOUR ESSAY ===
+Length (chars): 8352
+Average normalized relative style (you - GPT): -0.2294896952288795
+Average normalized logP_you per rule        : 0.21080455363438677
+Average normalized logP_gpt per rule        : 0.44029424886326635
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 9757
+Average normalized relative style (you - GPT): 0.404182835038304
+Average normalized logP_you per rule        : 0.27041878873547365
+Average normalized logP_gpt per rule        : -0.13376404630283031
+
+[INFO] Rewrote 47 out of 108 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 9834
+Average normalized relative style (you - GPT): 0.4155484850891605
+Average normalized logP_you per rule        : 0.3920849235739267
+Average normalized logP_gpt per rule        : -0.023463561515233926
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.404182835038304
+After  (you - GPT): 0.4155484850891605
+Δ (after - before): 0.0114
+→ Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: rewritten_gpt_essay_relative.txt
+(lcproj) Dominics-MacBook-Pro-2:final_project_code_02 domgearing$ 
+
+
+
+
+### AFTER FIXING COMPUTE_BASELINES ON THE SAME TEXT REWRITE IS RUN ON ###
+
+
+
+
+
+(lcproj) Dominics-MacBook-Pro-2:final_project_code_02 domgearing$ python rewrite_gpt_cand.py --mine personal_dbb.txt --gpt gpt_dbb.txt --cands data/gpt_candidates.jsonl
+[INFO] Loaded paraphrases for 72 sentences from data/gpt_candidates.jsonl
+=== YOUR ESSAY ===
+Length (chars): 8352
+Average normalized relative style (you - GPT): -0.5396787408809419
+Average normalized logP_you per rule        : 0.027678364333822092
+Average normalized logP_gpt per rule        : 0.5673571052147641
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 9757
+Average normalized relative style (you - GPT): 0.09399378938624159
+Average normalized logP_you per rule        : 0.08729259943490895
+Average normalized logP_gpt per rule        : -0.006701189951332623
+
+[INFO] Rewrote 47 out of 108 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 9834
+Average normalized relative style (you - GPT): 0.10535943943709809
+Average normalized logP_you per rule        : 0.2089587342733619
+Average normalized logP_gpt per rule        : 0.1035992948362638
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.09399378938624159
+After  (you - GPT): 0.10535943943709809
+Δ (after - before): 0.0114
+→ Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: rewritten_gpt_essay_relative.txt
