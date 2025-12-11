@@ -1,0 +1,56 @@
+ 
+== S top 5 rules ==
+Entropy H(S) = 2.633
+S -> NP VP   (p=0.259)
+S -> S .   (p=0.207)
+S -> S VP   (p=0.103)
+S -> S NP   (p=0.074)
+S -> S ,   (p=0.052)
+
+== NP top 5 rules ==
+Entropy H(NP) = 3.577
+NP -> NP PP   (p=0.103)
+NP -> NP NN   (p=0.077)
+NP -> NP NP   (p=0.070)
+NP -> NP ,   (p=0.070)
+NP -> NN   (p=0.065)
+
+== VP top 5 rules ==
+Entropy H(VP) = 3.867
+VP -> VP PP   (p=0.084)
+VP -> VB NP   (p=0.075)
+VP -> VP VP   (p=0.068)
+VP -> VP ,   (p=0.059)
+VP -> VP CC   (p=0.046)
+
+== PP top 5 rules ==
+Entropy H(PP) = 1.033
+PP -> IN NP   (p=0.803)
+PP -> IN S+VP   (p=0.054)
+PP -> PP NP   (p=0.028)
+PP -> PP    (p=0.020)
+PP -> PP PP   (p=0.011)
+
+== SBAR top 5 rules ==
+Entropy H(SBAR) = 2.334
+SBAR -> IN S   (p=0.328)
+SBAR -> WHNP S+VP   (p=0.184)
+SBAR -> WHADVP S   (p=0.123)
+SBAR -> WHNP S   (p=0.070)
+SBAR -> IN NN   (p=0.033)
+
+== ADJP top 5 rules ==
+Entropy H(ADJP) = 2.986
+ADJP -> ADJP JJ   (p=0.147)
+ADJP -> RB JJ   (p=0.120)
+ADJP -> JJ   (p=0.102)
+ADJP -> RBR JJ   (p=0.076)
+ADJP -> ADJP CC   (p=0.076)
+
+== ADVP top 5 rules ==
+Entropy H(ADVP) = 1.287
+ADVP -> RB   (p=0.743)
+ADVP -> RB RB   (p=0.041)
+ADVP -> ADVP PP   (p=0.028)
+ADVP -> RBR   (p=0.028)
+ADVP -> RBR RB   (p=0.018)

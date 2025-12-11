@@ -1,0 +1,40 @@
+Run: 2025-12-08_18-03-49_batch_loocv_ahosa
+Personal PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-03-49_batch_loocv_ahosa/models/pcfg_personal_pos.json
+GPT PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-03-49_batch_loocv_ahosa/models/pcfg_gpt_pos.json
+JS(personal || original_gpt) = 0.061257
+JS(personal || rewritten_gpt) = 0.065715
+Avg logP (orig under personal) = -72.78212748365895
+Avg logP (rewritten under personal) = -53.008135862273825
+
+Run: 2025-12-08_18-06-33_batch_loocv_cognitive_neuroscience
+Personal PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-06-33_batch_loocv_cognitive_neuroscience/models/pcfg_personal_pos.json
+GPT PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-06-33_batch_loocv_cognitive_neuroscience/models/pcfg_gpt_pos.json
+JS(personal || original_gpt) = 0.061257
+JS(personal || rewritten_gpt) = 0.063866
+Avg logP (orig under personal) = -49.766532625431736
+Avg logP (rewritten under personal) = -36.501062252623825
+
+Run: 2025-12-08_18-08-45_batch_loocv_dbb
+Personal PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-08-45_batch_loocv_dbb/models/pcfg_personal_pos.json
+GPT PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-08-45_batch_loocv_dbb/models/pcfg_gpt_pos.json
+JS(personal || original_gpt) = 0.061257
+JS(personal || rewritten_gpt) = 0.060446
+Avg logP (orig under personal) = -52.899207692257825
+Avg logP (rewritten under personal) = -42.67035238533514
+
+Run: 2025-12-08_18-11-29_batch_loocv_racial_capitalism
+Personal PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-11-29_batch_loocv_racial_capitalism/models/pcfg_personal_pos.json
+GPT PCFG: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-08_18-11-29_batch_loocv_racial_capitalism/models/pcfg_gpt_pos.json
+JS(personal || original_gpt) = 0.061257
+JS(personal || rewritten_gpt) = 0.071056
+Avg logP (orig under personal) = -57.43951679677673
+Avg logP (rewritten under personal) = -39.247127591617634
+
+Average JS(personal || original_gpt) across runs: 0.061257
+Average JS(personal || rewritten_gpt) across runs: 0.065271
+Average logP(orig under personal) across runs: -58.22184614953131
+Average logP(rewritten under personal) across runs: -42.85666952296261
+Lower JS means closer distributions. If JS(personal||rewritten) < JS(personal||gpt), rewrites moved toward personal style.
+
+Aggregated rewrites PCFG: /var/folders/ls/4vn8_b4j0qx4m15tc_j_n2d40000gn/T/rewrite_pcfg_all__r7o4_mq/rewrites_pcfg_pos.json
+JS(personal_ref || aggregated rewrites) = 0.055721
